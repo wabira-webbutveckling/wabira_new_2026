@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Se ett urval av Wabiras exempelprojekt – webbdesign för tjänsteföretag, butiker och webbshoppar.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ad5c36405b.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <title>WABIRA | Projekt</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm" aria-label="Huvudmeny">
+      <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">WABIRA</a>
+
+        <!-- Mobile menu toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Öppna eller stäng navigationsmenyn">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links + CTA -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Hem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Tjänster</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Om oss</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="portfolio.html">Projekt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">Kontakt</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn custom-btn" href="contact.php">Kom igång!</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!-- ==================== END HEADER ======================= -->
+
+
+  <!-- ======================== MAIN ========================= -->
+  <main id="main-content">
+
+    <!-- PAGE INTRO -->
+    <section class="pt-5 pb-4" aria-labelledby="portfolio-heading">
+      <div class="container text-center">
+
+        <p class="eyebrow">Exempelprojekt</p>
+        <h1 class="about-hero-heading mb-3" id="portfolio-heading">Genomtänkt design.<br>Tydligt innehåll.<br>Bättre första intryck.</h1>
+        <p class="section-subtitle mb-4">
+          Projekten är koncept och demos men representerar min stil, struktur och hur ett riktigt samarbete kan se ut.
+        </p>
+        <a href="contact.php" class="btn custom-btn">Kontakta mig</a>
+
+      </div>
+    </section>
+    <!-- END PAGE INTRO -->
+
+    <!-- PROJECT GRID -->
+    <section class="pt-4 pb-5" aria-labelledby="portfolio-heading">
+      <div class="container pb-5">
+        <div class="row g-4">
+
+          <!-- ── 1) Bark & Brush ── -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="pf-card">
+
+              <!-- Thumbnail — decorative, project name in heading below -->
+              <div class="project-thumb">
+                <img src="assets/images/barkandbrush.png" alt="" aria-hidden="true">
+              </div>
+
+              <div class="pf-body">
+                <div class="d-flex justify-content-between align-items-start gap-2">
+                  <h2 class="pf-title">Bark &amp; Brush</h2>
+                  <span class="badge-sample">Exempelprojekt</span>
+                </div>
+
+                <p class="pf-desc">
+                  En varm och lekfull hemsida för ett hundtrim med fokus på tjänster, bokning och förtroende.
+                </p>
+
+                <div class="tag-row">
+                  <span class="tag">Tjänsteföretag</span>
+                  <span class="tag">Tydlig bokning</span>
+                  <span class="tag">Mobilanpassad</span>
+                  <span class="tag">Personlig design</span>
+                </div>
+
+                <div class="pf-actions">
+                  <button
+                    class="btn btn-ghost w-100"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalBark"
+                    aria-label="Visa mer om Bark &amp; Brush">
+                    Visa mer
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ── 2) Bukettfabriken ── -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="pf-card">
+
+              <div class="project-thumb">
+                <img src="assets/images/bukettfabriken.png" alt="" aria-hidden="true">
+              </div>
+
+              <div class="pf-body">
+                <div class="d-flex justify-content-between align-items-start gap-2">
+                  <h2 class="pf-title">Bukettfabriken</h2>
+                  <span class="badge-sample">Exempelprojekt</span>
+                </div>
+
+                <p class="pf-desc">
+                  En innehållsrik och visuellt stark hemsida för en blomsterbutik med fokus på känsla och
+                  enkel navigation.
+                </p>
+
+                <div class="tag-row">
+                  <span class="tag">Kreativt företag</span>
+                  <span class="tag">Bildfokus</span>
+                  <span class="tag">Flera sidor</span>
+                  <span class="tag">Lokal verksamhet</span>
+                </div>
+
+                <div class="pf-actions">
+                  <button
+                    class="btn btn-ghost w-100"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalBukett"
+                    aria-label="Visa mer om Bukettfabriken">
+                    Visa mer
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ── 3) Prickebo's Kennel ── -->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="pf-card">
+
+    <div class="project-thumb">
+      <img src="assets/images/prickebos.png" alt="Skärmdump av Prickebo's Kennel – hemsida för dalmatineruppfödare">
+    </div>
+
+    <div class="pf-body">
+      <div class="d-flex justify-content-between align-items-start gap-2">
+        <h2 class="pf-title">Prickebo's Kennel</h2>
+        <span class="badge-sample">Exempelprojekt</span>
+      </div>
+
+      <p class="pf-desc">
+        Elegant hemsida för en familjeuppfödning av dalmatiner – med fokus på känsla,
+        valpinformation och tydliga kontaktvägar.
+      </p>
+
+      <div class="tag-row">
+        <span class="tag">Djur & uppfödning</span>
+        <span class="tag">Bildfokus</span>
+        <span class="tag">Lokal verksamhet</span>
+      </div>
+
+      <div class="pf-actions">
+        <button
+          class="btn btn-ghost w-100"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#modalPrickebo"
+          aria-label="Visa mer om Prickebo's Kennel">
+          Visa mer
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+          <!-- ── 3) Happy Hour ── -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="pf-card">
+
+              <div class="project-thumb">
+                <img src="assets/images/happyhour.png" alt="" aria-hidden="true">
+              </div>
+
+              <div class="pf-body">
+                <div class="d-flex justify-content-between align-items-start gap-2">
+                  <h2 class="pf-title">Happy Hour</h2>
+                  <span class="badge-sample">Exempelprojekt</span>
+                </div>
+
+                <p class="pf-desc">
+                  Stämningsfull hemsida för en bar/restaurang, med fokus på atmosfär, meny och tydliga
+                  kontaktvägar.
+                </p>
+
+                <div class="tag-row">
+                  <span class="tag">Restaurang &amp; bar</span>
+                  <span class="tag">Stämningsfull design</span>
+                  <span class="tag">Tydlig CTA</span>
+                  <span class="tag">Snabb laddning</span>
+                </div>
+
+                <div class="pf-actions">
+                  <button
+                    class="btn btn-ghost w-100"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalHappy"
+                    aria-label="Visa mer om Happy Hour">
+                    Visa mer
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ── 4) Luna Home ── -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="pf-card">
+
+              <div class="project-thumb">
+                <img src="assets/images/luna-home.png" alt="" aria-hidden="true">
+              </div>
+
+              <div class="pf-body">
+                <div class="d-flex justify-content-between align-items-start gap-2">
+                  <h2 class="pf-title">Luna Home</h2>
+                  <span class="badge-sample">Exempelprojekt</span>
+                </div>
+
+                <p class="pf-desc">
+                  Ett mer avancerat exempel med webbshop och produktstruktur – för företag som behöver mer
+                  än en vanlig hemsida.
+                </p>
+
+                <div class="tag-row">
+                  <span class="tag">Webbshop</span>
+                  <span class="tag">Webbapp</span>
+                  <span class="tag">Konton</span>
+                  <span class="tag">Skalbar lösning</span>
+                </div>
+
+                <div class="pf-actions">
+                  <button
+                    class="btn btn-ghost w-100"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalPoster"
+                    aria-label="Visa mer om Luna Home">
+                    Visa mer
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- END project grid row -->
+
+        <div class="section-divider"></div>
+
+        <!-- CTA -->
+        <div class="text-center">
+          <h2 class="section-title mb-2">Vill du ha något liknande?</h2>
+          <p class="section-subtitle mb-4">
+            Berätta vad du behöver så tar jag fram ett upplägg som passar ditt företag och din budget.
+          </p>
+          <a href="contact.php" class="btn custom-btn">Kontakta mig</a>
+        </div>
+
+      </div>
+    </section>
+    <!-- END PROJECT GRID -->
+
+  </main>
+  <!-- ====================== END MAIN ======================= -->
+
+
+  <!-- ======================= MODALS ======================== -->
+  <!--
+    Bootstrap modals live outside <main> at the body level so Bootstrap's
+    focus trap and scroll-lock work correctly across all browsers.
+  -->
+
+  <!-- Bark & Brush Modal -->
+  <div class="modal fade" id="modalBark" tabindex="-1" aria-labelledby="modalBarkTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="modalBarkTitle">Bark &amp; Brush</h2>
+            <p class="small modal-sub mb-0">Exempelprojekt • Passar paket: Webbapp</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Stäng"></button>
+        </div>
+
+        <div class="modal-body p-4">
+
+          <div class="modal-hero mb-4">
+            <img src="assets/images/barkandbrush.png" alt="" aria-hidden="true">
+          </div>
+
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Fokus</h3>
+                <p>Varmt första intryck, tydlig bokning och enkel navigation för besökare på mobil.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Detta visar</h3>
+                <ul class="modal-list">
+                  <li>Tydlig hero + CTA</li>
+                  <li>Strukturerade tjänster</li>
+                  <li>Enkel bokningsväg</li>
+                  <li>Ren och lättläst layout</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="modal-block">
+                <h3>Tags</h3>
+                <div class="tag-row">
+                  <span class="tag">Tjänsteföretag</span>
+                  <span class="tag">Tydlig bokning</span>
+                  <span class="tag">Mobilanpassad</span>
+                  <span class="tag">Personlig design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-links">
+            <!-- Byt ut länkarna till dina riktiga GitHub Pages / GitHub -->
+            <a class="btn btn-ghost" href="https://bark-and-brush-dba8d291cd80.herokuapp.com/" target="_blank"
+              rel="noopener">Visa demo</a>
+            <a class="btn custom-btn" href="contact.php">Prata om ett liknande projekt</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END Bark & Brush Modal -->
+
+  <!-- Bukettfabriken Modal -->
+  <div class="modal fade" id="modalBukett" tabindex="-1" aria-labelledby="modalBukettTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="modalBukettTitle">Bukettfabriken</h2>
+            <p class="small modal-sub mb-0">Exempelprojekt • Passar paket: Utökad hemsida</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Stäng"></button>
+        </div>
+
+        <div class="modal-body p-4">
+
+          <div class="modal-hero mb-4">
+            <img src="assets/images/bukettfabriken.png" alt="" aria-hidden="true">
+          </div>
+
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Fokus</h3>
+                <p>Visuellt uttryck och innehåll som känns omhändertaget, med tydlig navigation och CTA.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Detta visar</h3>
+                <ul class="modal-list">
+                  <li>Bilddriven layout</li>
+                  <li>Grid och sektioner</li>
+                  <li>Tydliga knappar</li>
+                  <li>Konsekvent typografi</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="modal-block">
+                <h3>Tags</h3>
+                <div class="tag-row">
+                  <span class="tag">Kreativt företag</span>
+                  <span class="tag">Bildfokus</span>
+                  <span class="tag">Flera sidor</span>
+                  <span class="tag">Lokal verksamhet</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-links">
+            <a class="btn btn-ghost" href="https://wabira-webbutveckling.github.io/bukettfabriken/" target="_blank"
+              rel="noopener">Visa demo</a>
+            <a class="btn custom-btn" href="contact.php">Prata om ett liknande projekt</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END Bukettfabriken Modal -->
+
+  <!-- Prickebo's Kennel Modal -->
+<div class="modal fade" id="modalPrickebo" tabindex="-1" aria-labelledby="modalPrickeboTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title" id="modalPrickeboTitle">Prickebo's Kennel</h2>
+          <p class="small modal-sub mb-0">Exempelprojekt • Passar paket: Enkel hemsida</p>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Stäng"></button>
+      </div>
+
+      <div class="modal-body p-4">
+
+        <div class="modal-hero mb-4">
+          <img src="assets/images/prickebos.png" alt="Skärmdump av Prickebo's Kennel – hemsida för dalmatineruppfödare">
+        </div>
+
+        <div class="row g-3">
+          <div class="col-12 col-md-6">
+            <div class="modal-block">
+              <h3>Fokus</h3>
+              <p>Elegant och varm känsla som speglar uppfödarens omsorg – med tydlig information om kullar, hundar och hur man kommer i kontakt.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="modal-block">
+              <h3>Detta visar</h3>
+              <ul class="modal-list">
+                <li>Bilddriven hero-sektion</li>
+                <li>Mjuk, förtroendeskapande design</li>
+                <li>Tydliga kontaktvägar och CTA</li>
+                <li>Konsekvent typografi och färgpalett</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="modal-block">
+              <h3>Tags</h3>
+              <div class="tag-row">
+                <span class="tag">Djur & uppfödning</span>
+                <span class="tag">Bildfokus</span>
+                <span class="tag">Lokal verksamhet</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-links">
+          <a class="btn btn-ghost" href="https://wabira-webbutveckling.github.io/prickebo/" target="_blank" rel="noopener">Visa webbplats</a>
+          <a class="btn custom-btn" href="contact.html">Prata om ett liknande projekt</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Prickebo's Kennel Modal -->
+
+  <!-- Happy Hour Modal -->
+  <div class="modal fade" id="modalHappy" tabindex="-1" aria-labelledby="modalHappyTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="modalHappyTitle">Happy Hour</h2>
+            <p class="small modal-sub mb-0">Exempelprojekt • Passar paket: Enkel/Utökad hemsida</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Stäng"></button>
+        </div>
+
+        <div class="modal-body p-4">
+
+          <div class="modal-hero mb-4">
+            <img src="assets/images/happyhour.png" alt="" aria-hidden="true">
+          </div>
+
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Fokus</h3>
+                <p>Atmosfär och varumärke, med tydlig textkontrast och enkla vägar till meny och kontakt.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Detta visar</h3>
+                <ul class="modal-list">
+                  <li>Hero med tydlig typografi</li>
+                  <li>Kontrast och läsbarhet</li>
+                  <li>Enkel CTA-struktur</li>
+                  <li>Stämning utan att bli rörigt</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="modal-block">
+                <h3>Tags</h3>
+                <div class="tag-row">
+                  <span class="tag">Restaurang &amp; bar</span>
+                  <span class="tag">Stämningsfull design</span>
+                  <span class="tag">Tydlig CTA</span>
+                  <span class="tag">Snabb laddning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-links">
+            <a class="btn btn-ghost" href="https://wabira-webbutveckling.github.io/happyhour/" target="_blank"
+              rel="noopener">Visa demo</a>
+            <a class="btn custom-btn" href="contact.php">Prata om ett liknande projekt</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END Happy Hour Modal -->
+
+  <!-- Luna Home Modal -->
+  <div class="modal fade" id="modalPoster" tabindex="-1" aria-labelledby="modalPosterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div>
+            <h2 class="modal-title" id="modalPosterTitle">Luna Home</h2>
+            <p class="small modal-sub mb-0">Exempelprojekt • Passar paket: Webbapp</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Stäng"></button>
+        </div>
+
+        <div class="modal-body p-4">
+
+          <div class="modal-hero mb-4">
+            <img src="assets/images/luna-home.png" alt="" aria-hidden="true">
+          </div>
+
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Fokus</h3>
+                <p>Mer avancerad struktur med produktkatalog, genomtänkt navigation och en smidig köpupplevelse.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="modal-block">
+                <h3>Detta visar</h3>
+                <ul class="modal-list">
+                  <li>Produktstruktur &amp; navigation</li>
+                  <li>Stark visuell identitet</li>
+                  <li>Skalbar layout för fler sidor</li>
+                  <li>Grund för vidare funktioner</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="modal-block">
+                <h3>Tags</h3>
+                <div class="tag-row">
+                  <span class="tag">Webbshop</span>
+                  <span class="tag">Webbapp</span>
+                  <span class="tag">Konton</span>
+                  <span class="tag">Skalbar lösning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-links">
+            <a class="btn btn-ghost" href="https://wabira-webbutveckling.github.io/luna-home/" target="_blank"
+              rel="noopener">Visa demo</a>
+            <a class="btn custom-btn" href="contact.php">Prata om ett liknande projekt</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END Luna Home Modal -->
+
+  <!-- ==================== END MODALS ====================== -->
+
+
+  <!-- ======================= FOOTER ======================== -->
+  <footer class="py-5">
+    <div class="text-center">
+
+      <!-- Brand -->
+      <div class="footer-brand mb-4">
+        <a href="/" class="footer-logo text-decoration-none">WABIRA</a>
+      </div>
+
+      <!-- Footer nav -->
+      <nav class="footer-nav mb-4" aria-label="Sidfot">
+        <a href="services.html" class="footer-link">Tjänster</a>
+        <a href="about.html" class="footer-link">Om oss</a>
+        <a href="portfolio.html" class="footer-link">Projekt</a>
+        <a href="contact.php" class="footer-link">Kontakt</a>
+      </nav>
+
+      <!-- Social icons -->
+      <div class="footer-social mb-4" aria-label="Sociala medier">
+        <a href="https://www.facebook.com/profile.php?id=61589348814467" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/wabira-webbutveckling/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copy small">
+        © <span id="year"></span> Wabira. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+  <!-- ===================== END FOOTER ====================== -->
+
+
+  <!-- ======================= SCRIPTS ======================= -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Animations -->
+  <script src="assets/js/animations.js"></script>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- ==================== END SCRIPTS ====================== -->
+
+</body>
+
+</html>

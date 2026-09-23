@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tack för ditt meddelande – Wabira återkommer inom 1–2 arbetsdagar.">
+
+  <!-- Prevent search engines from indexing this page -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ad5c36405b.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <title>WABIRA | Tack!</title>
+
+  <style>
+    /* Fade-in animation for the thank you card */
+    @media (prefers-reduced-motion: no-preference) {
+      .thankyou-card {
+        animation: fadeUp 0.5s ease both;
+      }
+
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(16px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    }
+
+    /* Checkmark icon container */
+    .thankyou-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      background: rgba(179, 154, 132, 0.18);
+      border: 1px solid rgba(179, 154, 132, 0.35);
+      color: var(--heading-text);
+      font-size: 1.75rem;
+      margin: 0 auto 1.5rem;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm" aria-label="Huvudmeny">
+      <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">WABIRA</a>
+
+        <!-- Mobile menu toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Öppna eller stäng navigationsmenyn">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links + CTA -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Hem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Tjänster</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Om oss</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Projekt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">Kontakt</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn custom-btn" href="contact.php">Kom igång!</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!-- ==================== END HEADER ======================= -->
+
+
+  <!-- ======================== MAIN ========================= -->
+  <main id="main-content" class="flex-grow-1">
+
+    <!-- THANK YOU -->
+    <section class="py-5" aria-labelledby="thankyou-heading">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+
+            <div class="soft-card text-center thankyou-card">
+
+              <!-- Icon -->
+              <div class="thankyou-icon" aria-hidden="true">✓</div>
+
+              <!-- Heading -->
+              <h1 class="section-title mb-2" id="thankyou-heading">Tack för ditt meddelande!</h1>
+
+              <!-- Body -->
+              <p class="section-subtitle mb-4">
+                Jag återkommer inom <strong>1–2 arbetsdagar</strong> med ett svar. Kika gärna på mina tjänster
+                eller exempelprojekt medan du väntar.</p>
+
+                 <p class="section-subtitle mb-4">
+                <strong>Ibland hamnar mina svar i skräpposten. Om du inte får något svar inom två dagar, kika gärna där.</strong>
+                  </p>
+
+              <!-- Expectations -->
+              <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+                <span class="pill">Svar inom 1–2 arbetsdagar</span>
+                <span class="pill">Tydligt prisförslag</span>
+                <span class="pill">Inga förpliktelser</span>
+              </div>
+
+              <!-- CTAs -->
+              <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="services.html" class="btn btn-ghost">Se tjänster &amp; priser</a>
+                <a href="portfolio.html" class="btn custom-btn">Se exempelprojekt</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END THANK YOU -->
+
+  </main>
+  <!-- ====================== END MAIN ======================= -->
+
+
+  <!-- ======================= FOOTER ======================== -->
+  <footer class="py-5">
+    <div class="text-center">
+
+      <!-- Brand -->
+      <div class="footer-brand mb-4">
+        <a href="/" class="footer-logo text-decoration-none">WABIRA</a>
+      </div>
+
+      <!-- Footer nav -->
+      <nav class="footer-nav mb-4" aria-label="Sidfot">
+        <a href="services.html" class="footer-link">Tjänster</a>
+        <a href="about.html" class="footer-link">Om oss</a>
+        <a href="portfolio.html" class="footer-link">Projekt</a>
+        <a href="contact.php" class="footer-link">Kontakt</a>
+      </nav>
+
+      <!-- Social icons -->
+      <div class="footer-social mb-4" aria-label="Sociala medier">
+        <a href="https://www.facebook.com/profile.php?id=61589348814467" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/wabira-webbutveckling/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copy small">
+        © <span id="year"></span> Wabira. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+  <!-- ===================== END FOOTER ====================== -->
+
+
+  <!-- ======================= SCRIPTS ======================= -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Animations -->
+  <script src="assets/js/animations.js"></script>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- ==================== END SCRIPTS ====================== -->
+
+</body>
+
+</html>
